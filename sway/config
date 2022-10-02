@@ -219,6 +219,7 @@ client.unfocused #000000 #000000 #000000 #45475a #45475a
 exec mako 
 #exec kime
 exec ibus-daemon -drxR
+exec --no-startup-id fcitx5 -d
 
 exec eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
